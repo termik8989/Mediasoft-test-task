@@ -1,11 +1,13 @@
 import React from "react";
 import classes from  './News.module.css'
+import NewsUserPost from "./NewsModules/NewsUserPost";
 
 const News = (props) => {
-    return(
+    //debugger;
+        return(
         <div>
-            News
-            </div>
+            <NewsUserPost  />
+        </div>
             
        
     )

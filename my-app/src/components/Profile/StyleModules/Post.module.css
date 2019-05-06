@@ -1,0 +1,30 @@
+.item {
+    color: black;
+    width: 450px;
+	height: 300px;
+    position: relative;
+    border: 1px solid #000;
+	
+}
+
+.item img {
+    width: 450px;
+   height: 300px; 
+}
+
+.item .prewive{
+    color: rgb(110, 23, 128);
+    display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+    width: 450px;
+    height: 300px; 
+	padding: 10% 3%;
+	box-sizing: border-box;
+}
+.item:hover .prewive{
+    display: block;
+	background: rgba(255,255,255,.8);
+     cursor: pointer;
+}
